@@ -170,7 +170,7 @@
                     // HLS direct via proxy (no DRM)
                     document.getElementById('playback-status').textContent = "LIVE";
                     document.getElementById('playback-status').style.color = "var(--accent)";
-                    await player.load(`proxy.php?type=direct&url=${encodeURIComponent(STREAM_URL)}`);
+                    await player.load(`proxy.php?type=direct&url=${encodeURIComponent(http://72.76.0.150/channel/1edf0476/index.m3u8?q=1765986513467)}`);
                 } else {
                     // Existing DASH/MPD flow via proxy manifest (DRM or non-DRM)
                     await player.load(`proxy.php?type=manifest&id=8`);
